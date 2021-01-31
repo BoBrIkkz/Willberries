@@ -266,6 +266,22 @@ body {
   .slider-nav {
     display: none;
   }
+  .button {
+    padding: 5px 10px;
+  }
+  .slide-tittle {
+    font-size: 42px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 50px;
+  }
+  .slide-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #4b5157;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 768px) {
   .card-4 {
@@ -283,5 +299,17 @@ body {
     margin-top: 10px;
     margin-bottom: 5px;
     line-height: 50px;
+  }
+  .slide-description {
+    font-size: 18px;
+    line-height: 25px;
+    color: #4b5157;
+    margin-bottom: 20px;
+    width: 400px;
+  }
+}
+@media (max-width: 460px) {
+  .footer-menu-item {
+    display: none;
   }
 }
