@@ -263,11 +263,11 @@ body {
   .nav {
     display: none;
   }
-}
-@media (max-width: 768px) {
   .slider-nav {
     display: none;
   }
+}
+@media (max-width: 768px) {
   .card-4 {
     margin-top: 25px;
     background-size: contain;
