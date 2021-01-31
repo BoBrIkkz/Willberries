@@ -93,6 +93,7 @@ body {
   transform: translateY(-50%);
   z-index: 111;
 }
+
 .slider-button {
   background-color: transparent;
   cursor: pointer;
@@ -264,6 +265,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .slider-nav {
+    display: none;
+  }
   .card-4 {
     margin-top: 25px;
     background-size: contain;
